@@ -1,0 +1,321 @@
+html,
+body {
+  background: #EFEFEF;
+  display:flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  height:auto;
+  margin:auto;
+  width:100vw;
+}
+
+/*Navigation Items*/
+.nav-container {
+  display:flex;
+  height:150px;
+  width:100%;
+}
+
+.nav {
+  align-items: flex-end;
+  background: #2b2b2b;
+  display:flex;
+  height:150px;
+  padding-left: 30px;
+  width:65%;
+}
+
+.nav-img-container {
+  align-items: center;
+  display:flex;
+  margin-right:30px;
+  margin-bottom: 30px;
+}
+
+.nav-items {
+  color: #707070;
+}
+
+.nav-items:hover {
+  color: #00a1ff;
+}
+
+.playlist {
+  align-self: flex-end;
+  height: 24px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}
+
+/*Header Items*/
+.header {
+  align-items: flex-end;
+  background: #2b2b2b;
+  display:flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  height:150px;
+  width:35%;
+}
+
+.logo-img-container {
+  display:flex;
+  margin: 0 30px 20px 0;
+}
+
+.logo {
+  font-size: 300%;
+  margin: 0;
+}
+
+.header-items {
+  color: #FFFFFF;
+}
+
+.logo-img {
+  height: 53px;
+  width: 53px;
+}
+
+.admin-img-container {
+  align-items: center;
+  display:flex;
+  margin: 20px 30px 0 0;
+}
+
+.admin-img {
+  height:20px;
+  width:20px;
+}
+
+.admin {
+  color: #00a1ff;
+  font-size: 70%;
+  font-weight: 300;
+}
+
+.admin:hover {
+  color:#efa123;
+}
+
+/*Shares Item*/
+.shares {
+  color: #424242;
+  display:block;
+  font-size: 130%;
+  font-weight: 300;
+  padding: 40px 0 30px 30px;
+}
+
+h3 {
+  margin:0;
+}
+
+/*Card Container Items*/
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px #777777;
+  display:flex;
+  flex-wrap: wrap;
+  height:400px;
+  margin:10px;
+  width:290px;
+}
+
+figure {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-img {
+  background: url('images/stock.jpg');
+  background-size: cover;
+  filter: grayscale(70%);
+  height:35%;
+  margin:0;
+  width:100%;
+}
+
+.card-img:hover {
+  filter: grayscale(0%);
+}
+
+.arrow-img {
+  height:75px;
+  width:75px;
+}
+
+.views {
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  font-weight: 900;
+  padding: 7px;
+}
+
+.views-txt {
+  color: #FFFFFF;
+  font-size: 150%;
+}
+
+.bottom-card {
+  align-items: flex-start;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  height:65%;
+  padding-left:5%;
+  width: 95%;
+}
+
+p {
+  margin:0;
+}
+
+.recipient {
+  color: #424242;
+  margin-top:10px;
+}
+
+.recipient:hover {
+  color:#00a1ff;
+}
+
+.card-txt-bold {
+  color:#70716F;
+}
+
+.date {
+  color:#c4c4c4;
+  font-size: 70%;
+}
+
+.url {
+  background: #e2e2e2;
+  border-radius: 5px;
+  color:#7F7F7F;
+  line-height: 30px;
+  margin-top: 30px;
+  padding-left:5px;
+  width:90%;
+}
+
+.url:hover {
+  color:#00a1ff;
+}
+.card-playlist {
+  color: #424242;
+  font-size: 80%;
+  margin-top:30px;
+}
+
+.playlist-name:hover {
+  color:#00a1ff;
+}
+
+.attachments {
+  margin-top:30px;
+}
+
+.attachments-number {
+  color:#00a1ff;
+  font-size: 150%;
+}
+
+@media screen and (max-width:1200px) {
+
+/*Introduction of Spacer Box*/
+  .box-9 {
+    height:0px;
+    width:290px;
+    margin:5px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+/*Navigation Items*/
+  .nav {
+    justify-content: space-around;
+  }
+
+  .nav-items {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 619px) {
+
+  html,
+  body {
+    min-width: 320px;
+  }
+
+/*Navigation Items*/
+  .nav-container {
+    display:flex;
+    flex-direction: column-reverse;
+    height:170px;
+    width:100%;
+  }
+
+  .nav {
+    align-items: center;
+    display:flex;
+    height:70px;
+    justify-content: space-around;
+    padding: 0;
+    width:100%;
+  }
+
+/*Header Items*/
+  .header {
+    align-items: center;
+    display:flex;
+    height:100px;
+    width:100%;
+  }
+
+  .admin-img-container {
+    align-self: flex-end;
+    margin: 5px 5px 0 0;
+  }
+
+  .admin-img {
+    height: 12px;
+    width: 12px;
+  }
+
+  .admin {
+    align-self: flex-end;
+    font-size: 40%;
+  }
+
+/*Shares Item*/
+  .shares {
+    text-align: center;
+  }
+
+/*Card Container Items*/
+  .box {
+    height:400px;
+  }
+
+  .card-img {
+    height:150px;
+    margin:0;
+  }
+
+  .bottom-card {
+    height:250px;
+  }
+}
