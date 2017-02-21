@@ -13,6 +13,6 @@ Site must work across Firefox, Safari, and Chrome.
 <img width="990" alt="provided comp" src="https://cloud.githubusercontent.com/assets/25044263/23151091/9bba6342-f7b5-11e6-8d7e-724771678288.png">
 
 #### Produced Comp
-<img width="902" alt="produced static comp" src="https://cloud.githubusercontent.com/assets/25044263/22870704/f781a014-f166-11e6-8379-f493b12f1f6a.png">
+<img width="1276" alt="produced comp" src="https://cloud.githubusercontent.com/assets/25044263/23151108/c0bbafde-f7b5-11e6-99ef-0db48c3db315.png">
 
 
